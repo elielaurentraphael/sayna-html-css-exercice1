@@ -5,30 +5,63 @@ body {
     /*font-size: 1.15vw;*/
 }
 
+.grid-container {
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    background-color: #C55394;
+    padding: 0px 0px;
+    margin: 0 0;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    /*border: 1px solid #000;*/
+    background-color: #C55394;
+    text-align: center;
+    padding: 10px 0px;
+    /* réglage de la hauteur de la bande header: padding top/bottom; réglage espace entre éléments: padding right/left */
+    font-size: 16px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    grid-column-start: 18;
+    grid-column-end: 19;
+}
+
+.item2:hover {
+    background-color: #EB43A3;
+}
+
+.item3 {
+    grid-column-start: 19;
+    grid-column-end: 20;
+}
+
+.item3:hover {
+    background-color: #EB43A3;
+}
+
+.item4 {
+    grid-column-start: 20;
+    grid-column-end: 21;
+}
+
+.item4:hover {
+    background-color: #EB43A3;
+}
+
 a {
-    /*border: 3px solid black;*/
-    display: inline-block;
     text-decoration: none;
     color: #FFF;
-}
-
-header {
-    /*border: 3px solid #FFF;*/
-    background-color: #C55394;
-}
-
-header div {
-    /*border: 3px solid blue;*/
-    display: inline-block;
-    margin: 8px 10px;
-}
-
-#un {
-    float: right;
-}
-
-#un a {
-    margin: 0 0 0 20px;
 }
 
 .corps {
@@ -71,18 +104,14 @@ h2 {
     box-shadow: 2px 2px 5px 8px #777;
 }
 
-.kila {
+.kila1 {
+    /*/border: 2px solid red;*/
     padding: 0px 20px 30px 20px;
 }
 
-iframe,
-#septo {
-    display: inline-block;
-    vertical-align: top;
-}
-
-#septo {
-    padding: 0 20px;
+.kila2 {
+    /*border: 2px solid red;*/
+    padding: 0px 20px 30px 20px;
 }
 
 #huit,
@@ -125,6 +154,39 @@ iframe,
 .descrip p {
     position: relative;
     top: 3px;
+}
+
+.kila3 {
+    /*border: 2px solid red;*/
+    padding: 0px 20px 30px 20px;
+}
+
+#septo,
+.map-responsive {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+.map-responsive {
+    /*si width = 0, ça marche pas.*/
+    width: 37vw;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#septo {
+    padding: 0 20px;
 }
 
 span {
