@@ -2,7 +2,7 @@ body {
     /*border: 3px solid red;*/
     font-family: Arial, sans-serif;
     margin: 0;
-    /*font-size: 1.15vw;*/
+    font-size: 1.2vw;
 }
 
 .grid-container {
@@ -24,7 +24,7 @@ body {
     text-align: center;
     padding: 10px 0px;
     /* réglage de la hauteur de la bande header: padding top/bottom; réglage espace entre éléments: padding right/left */
-    font-size: 16px;
+    font-size: 1.2vw;
 }
 
 .item1 {
@@ -136,7 +136,7 @@ section .col-unicorn figure figcaption {
     width: 100%;
 }*/
 
-.flex-container {
+.row {
     display: flex;
     flex-direction: row;
 }
@@ -152,10 +152,12 @@ img {
 
 figcaption {
     background-color: #333;
-    color: #FFF;
+    opacity: 0.6;
     padding: 5px;
-    /*margin-bottom: -15;
-    position: relative;*/
+    position: relative;
+    margin-top: -2.42vw;
+    color: #FFF;
+    font-size: 1.2vw;
 }
 
 .kila3 {
@@ -195,6 +197,10 @@ span {
     color: #eb43a3;
     font-family: 'Courgette', cursive;
     font-style: italic;
+}
+
+form {
+    font-size: 1.2vw;
 }
 
 #foot {
