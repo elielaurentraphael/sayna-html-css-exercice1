@@ -70,7 +70,7 @@ a {
 }
 
 .corps {
-    background-image: url("assets/img/background.png");
+    background-image: url("C:/Users/raphe/sayna-html-css-exercice1/assets/img/background.png");
 }
 
 h1 {
@@ -83,7 +83,7 @@ h1 {
     background-position: 50% 0;
     background-repeat: no-repeat;
     font-family: 'Courgette', cursive;
-    background-image: url('assets/img/rainbow.png');
+    background-image: url("C:/Users/raphe/sayna-html-css-exercice1/assets/img/rainbow.png");
 }
 
 h2 {
