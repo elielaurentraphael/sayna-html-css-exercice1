@@ -1,214 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body {
-    /*border: 3px solid red;*/
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
-    margin: 0;
-    /*font-size: 1.2vw;*/
+    font-size: 0.75rem;
 }
 
-.grid-container {
-    /*border: 1px solid red;*/
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 1px;
+main {
+    background-image: url("../img/background.png");
+}
+
+.couleur {
     background-color: #C55394;
-    padding: 0px 0px;
-    margin: 0 0;
 }
 
-.item1,
-.item2,
-.item3,
-.item4 {
-    /*border: 1px solid #000;*/
-    background-color: #C55394;
-    text-align: center;
-    padding: 10px 0px;
-    /* réglage de la hauteur de la bande header: padding top/bottom; réglage espace entre éléments: padding right/left */
-    /*font-size: 1.2vw;*/
-}
-
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.item1 a {
-    font-family: 'Courgette', cursive;
-}
-
-.item2 {
-    grid-column-start: 18;
-    grid-column-end: 19;
-}
-
-.item2:hover {
+a:hover {
     background-color: #EB43A3;
 }
 
-.item3 {
-    grid-column-start: 19;
-    grid-column-end: 20;
-}
-
-.item3:hover {
-    background-color: #EB43A3;
-}
-
-.item4 {
-    grid-column-start: 20;
-    grid-column-end: 21;
-}
-
-.item4:hover {
-    background-color: #EB43A3;
-}
-
-a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-.corps {
-    background-image: url("C:/Users/raphe/sayna-html-css-exercice1/assets/img/background.png");
-}
-
-h1 {
-    height: 5vw;
-    margin: 2% 0 0 0;
-    padding: 6% 0 2% 0;
-    color: #C55394;
-    text-align: center;
-    font-size: 2.6vw;
-    background-size: 40%;
-    background-position: 50% 0%;
+.titre {
+    background-image: url('../img/rainbow.png');
+    background-size: 30%;
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    color: #C55394;
+}
+
+.courge {
     font-family: 'Courgette', cursive;
-    background-image: url("C:/Users/raphe/sayna-html-css-exercice1/assets/img/rainbow.png");
+    color: #EB43A3;
 }
 
-h2 {
-    color: #eb43a3;
-    font-family: 'Courgette', cursive;
-}
-
-#quarto {
-    background-color: #FFF;
-    width: 70%;
-    margin-top: 0;
-    margin-right: 15%;
-    margin-bottom: 50px;
-    margin-left: 15%;
-    border-radius: 15px;
-    padding: 20px 10px 30px 10px;
-    box-shadow: 2px 2px 5px 8px #777;
-}
-
-.kila1 {
-    /*/border: 2px solid red;*/
-    padding: 0px 20px 30px 20px;
-}
-
-.kila2 {
-    /*border: 2px solid red;*/
-    padding: 0px 20px 30px 20px;
-}
-
-
-/*section .col-unicorn figure {
-    margin: 0 0.5em;
-}
-
-section .col-unicorn figure figcaption {
-    color: #FFF;
-    margin-top: -15;
-    position: relative;
-    text-align: center;
-    background-color: #333;
-    opacity: 60%;
-}
-
-.row {
-    display: flex;
-}
-
-.row>.col-unicorn img {
-    width: 100%;
-}*/
-
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
-figure {
-    margin: 7px;
-    text-align: center;
-}
-
-img {
-    width: 100%;
-}
-
-figcaption {
-    background-color: #333;
-    opacity: 0.6;
-    padding: 5px;
-    position: relative;
-    margin-top: -2.42vw;
-    color: #FFF;
-    /*font-size: 1.2vw;*/
-}
-
-.kila3 {
-    /*border: 2px solid red;*/
-    padding: 0px 20px 30px 20px;
-}
-
-#septo,
-.map-responsive {
-    /*border: 1px solid red;*/
-    display: inline-block;
-    vertical-align: top;
-}
-
-.map-responsive {
-    /*si width = 0, ça marche pas.*/
-    width: 37vw;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-#septo {
-    padding: 0 20px;
-}
-
-span {
-    color: #eb43a3;
-    font-family: 'Courgette', cursive;
-    font-style: italic;
-}
-
-form {
-    font-size: 1.2vw;
-}
-
-#foot {
+footer {
     background-color: #E577B5;
-    color: #FFF;
-}
-
-#oot {
-    text-align: right;
-    padding: 10px;
 }
