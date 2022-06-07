@@ -38,9 +38,9 @@
 
         <!--TITRE-->
 
-        <div class="row">
-            <div class="col-12 text-center">
-                <p id="home" class="titre courge h2 pt-5 pb-4">Un jour, une licorne</p>
+        <div class="row justify-content-center">
+            <div class="col titre text-center">
+                <h5 class="courge fw-bolder pt-5 pb-4 mt-4">Un jour, une licorne</h5>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
 
                 <!--SECTION_1-->
 
-                <h4 id="one" class="pb-3 courge"><i class="fa fa-star-o"></i> Le principe</h4>
+                <h6 class="pb-3 courge"><i class="fa fa-star-o"></i> Le principe</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer
                     facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo
                     leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales.
@@ -62,7 +62,7 @@
 
                 <!--SECTION_2-->
 
-                <h4 id="two" class="pb-3 courge"><i class="fa fa-star-o"></i> Nos licornes</h4>
+                <h6 class="pb-3 courge"><i class="fa fa-star-o"></i> Nos licornes</h6>
                 <div class="row row-cols-1 row-cols-md-4 g-2">
                     <div class="col">
                         <div class="card">
@@ -101,14 +101,14 @@
 
                 <!--SECTION_3-->
 
-                <h4 id="three" class="pb-3 courge"><i class="fa fa-star-o"></i> Nous trouver</h4>
+                <h6 class="pb-3 courge"><i class="fa fa-star-o"></i> Nous trouver</h6>
                 <div class="row d-block d-sm-flex">
                     <div class="col-md-7 map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30198.20258165555!2d47.50966951895343!3d-18.897046016566765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1644055901872!5m2!1sfr!2smg"
                             width="500" height="450" class="img-fluid w-100 h-100" style="border:0;" allowfullscreen="allowfullscreen" loading="lazy">
                         </iframe>
                     </div>
-                    <div id="septo" class="col-md-5 pt-3">
+                    <div class="col-md-5 pt-3">
                         <p class="fw-bold">
                             <span class="courge"><b>Notre élevage de licornes est situé au :</b></span><br><br> Analakely Market<br> Arabe Rabezavana,<br> Antananarivo, Madagascar +261 32 73 187 22
                         </p>
@@ -119,9 +119,11 @@
                             Abonnez-vous simplement à notre newsletter<br> mensuelle !
                         </p>
                         <div>
-                            <form action="/action_page.php">
-                                <input type="text" placeholder="votre@email.fr" /><br><br>
-                                <button type="button" class="btn rounded-3 couleur text-white fw-bold">Valider</button>
+                            <form method="post" action="/action_page.php">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="votre@email.fr" /><br><br>
+                                    <button type="button" class="btn rounded-3 couleur text-white fw-bold">Valider</button>
+                                </div>
                             </form>
                         </div>
                     </div>
